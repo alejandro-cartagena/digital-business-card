@@ -1,0 +1,146 @@
+* { box-sizing: border-box;}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #1C1C1C;
+  padding: 2em 0;
+}
+
+/* Card Header Styles */
+
+.header {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.profile-img {
+  width: 100%;
+  margin-bottom: 1.25em;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.name {
+  font-size: 23px;
+  margin: 0;
+  margin-bottom: 6px;
+}
+
+.job-title {
+  color: #F3BF99;
+  margin: 0;
+  margin-bottom: 9px;
+}
+
+.portfolio-link {
+  display: block;
+  margin: 0;
+  font-size: 12px;
+  margin-bottom: 2em;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.card {
+  border-radius: 10px;
+  width: 320px;
+  background-color: #1A1B21;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 0;
+  border-radius: 6px;
+}
+
+.email-btn {
+  color: #374151;
+  background-color: #FFF;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.email-btn:hover {
+  background-color: #CECACA;
+}
+
+.mail-icon {
+  margin-right: 8px;
+}
+
+.linkedin-btn {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #5093E2;
+}
+
+.linkedin-btn:hover {
+  background-color: #226CC3;
+}
+
+.linkedin-icon {
+  margin-right: 8px;
+}
+
+
+.container {
+  margin-right: 2.25em;
+  margin-left: 2.25em;
+}
+
+/* End of Header Styles */
+
+.main-content-title {
+  font-size: 1rem;
+  color: #F5F5F5;
+  margin-top: 1.5em;
+  margin-bottom: 5px;
+}
+
+.main-content-p {
+  font-size: 0.75rem;
+  color: #DCDCDC;
+  margin: 0;
+}
+
+.interests-content {
+  padding-bottom: 2em;
+}
+
+.icon {
+  color: #918E9B;
+  font-size: 2rem;
+}
+
+.icon:hover {
+  color: #B7B4C1;
+}
+
+.footer {
+  background-color: #161619;
+  padding: 1.5em 0;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.outer-card {
+  background-color: #23252C;
+  display: flex;
+  justify-content: center;
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 2em 0;
+}
